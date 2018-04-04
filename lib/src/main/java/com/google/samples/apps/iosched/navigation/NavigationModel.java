@@ -92,7 +92,7 @@ public class NavigationModel implements Model<NavigationQueryEnum, NavigationUse
      * List of all possible navigation items.
      */
     public enum NavigationItemEnum {
-        MY_IO(R.id.myio_nav_item, R.string.navdrawer_item_my_io, R.drawable.ic_nav_myio,
+        MY_COMPILE_DROID(R.id.myio_nav_item, R.string.navdrawer_item_my_io, R.drawable.ic_nav_myio,
                 MyIOActivity.class, true),
         MY_SCHEDULE(R.id.myschedule_nav_item, R.string.navdrawer_item_my_schedule,
                 R.drawable.ic_nav_schedule, ScheduleActivity.class, true),

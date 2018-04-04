@@ -79,7 +79,7 @@ public class MyIOActivity extends BaseActivity implements
 
     private static final String TAG = makeLogTag(MyIOActivity.class);
 
-    private static final String SCREEN_LABEL = "My I/O";
+    private static final String SCREEN_LABEL = "My compileDroid";
 
     // intent extras used to show an arbitrary message sent via FCM
     public static final String EXTRA_DIALOG_TITLE
@@ -125,7 +125,7 @@ public class MyIOActivity extends BaseActivity implements
 
     @Override
     protected NavigationModel.NavigationItemEnum getSelfNavDrawerItem() {
-        return NavigationModel.NavigationItemEnum.MY_IO;
+        return NavigationModel.NavigationItemEnum.MY_COMPILE_DROID;
     }
 
     @Override

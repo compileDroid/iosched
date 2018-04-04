@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toStartOf="@+id/priority_icon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="May 17, 10:52AM" />
+        tools:text="July 27, 10:52AM" />
 
     <ImageView
         android:id="@id/priority_icon"

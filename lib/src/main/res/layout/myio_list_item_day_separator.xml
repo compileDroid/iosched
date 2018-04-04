@@ -35,7 +35,7 @@
         android:lines="1"
         android:paddingBottom="@dimen/spacing_micro"
         android:paddingTop="@dimen/spacing_micro"
-        tools:text="Tues, May 17" />
+        tools:text="Tues, July 17" />
 
     <Button
         android:id="@+id/add_events"
