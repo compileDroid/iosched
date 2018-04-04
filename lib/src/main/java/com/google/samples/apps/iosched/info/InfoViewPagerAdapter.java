@@ -35,7 +35,7 @@ public class InfoViewPagerAdapter extends FragmentPagerAdapter {
 
     private final static String TAG = makeLogTag(InfoViewPagerAdapter.class);
 
-    private final static int NUM_PAGES = BuildConfig.DEBUG ? 5 : 4;
+    private final static int NUM_PAGES = BuildConfig.DEBUG ? 4 : 3;
     private final static int EVENT_INDEX = 0;
     private final static int TRAVEL_INDEX = 1;
     private final static int SETTINGS_INDEX = 2;
@@ -80,9 +80,9 @@ public class InfoViewPagerAdapter extends FragmentPagerAdapter {
             case SETTINGS_INDEX:
                 mFragments[position] = new SettingsFragment();
                 break;
-            case DEBUG_INDEX:
-                mFragments[position] = new DebugFragment();
-                break;
+            //case DEBUG_INDEX:
+               // mFragments[position] = new DebugFragment();
+               // break;
         }
         return mFragments[position];
     }
