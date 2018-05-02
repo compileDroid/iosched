@@ -36,7 +36,7 @@ public class Config {
     public static final String DOGFOOD_BUILD_WARNING_TITLE = "DOGFOOD BUILD";
 
     public static final String DOGFOOD_BUILD_WARNING_TEXT = "Shhh! This is a pre-release build "
-            + "of the compileDroid app. Don't show it around.";
+            + "of the droidconKE app. Don't show it around.";
 
     public static final long PRECONFERENCE_START =
             ParserUtils.parseTime(BuildConfig.PRECONFERENCE_DAY_START);
