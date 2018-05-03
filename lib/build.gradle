@@ -115,7 +115,7 @@ android {
         buildConfigField("float", "MAP_DEFAULTCAMERA_TILT", "${map_defaultcamera_tilt}")
         buildConfigField("float", "MAP_VENUECAMERA_ZOOM", "${map_venuecamera_zoom}")
         buildConfigField("float[]", "MAP_FLOORPLAN_MAPPING", "{${map_floorplan_nw}," +
-                "${map_floorplan_ne}, ${map_floorplan_se}}" )
+                "${map_floorplan_ne}, ${map_floorplan_se}}")
     }
 
     signingConfigs {
@@ -229,16 +229,16 @@ dependencies {
     // Backend server
     compile project(path: ':server', configuration: 'android-endpoints')
 
-    compile ('com.google.api-client:google-api-client:1.22.0') {
+    compile('com.google.api-client:google-api-client:1.22.0') {
         // Dependency org.apache.httpcomponents:httpclient:4.0.1
         // conflicts with the internal version provided by Android.
-        exclude group: 'org.apache.httpcomponents', module:'httpclient'
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
 
-    compile ('com.google.api-client:google-api-client-android:1.22.0') {
+    compile('com.google.api-client:google-api-client-android:1.22.0') {
         // Dependency org.apache.httpcomponents:httpclient:4.0.1
         // conflicts with the internal version provided by Android.
-        exclude group: 'org.apache.httpcomponents', module:'httpclient'
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
 
     // Google Play services split client libs.
@@ -288,7 +288,7 @@ dependencies {
     // greater is used for both app and test builds.
     compile 'com.google.code.findbugs:jsr305:2.0.1'
 
-    compile ('uk.co.chrisjenx:calligraphy:2.2.0') {
+    compile('uk.co.chrisjenx:calligraphy:2.2.0') {
         exclude group: 'com.android.support:design'
     }
     compile 'com.airbnb.android:lottie:2.0.0-beta4'
@@ -335,3 +335,5 @@ dependencies {
     testCompile 'org.powermock:powermock-module-junit4:1.6.4'
     testCompile 'org.json:json:20090211'
 }
+
+apply plugin: 'com.google.gms.google-services'

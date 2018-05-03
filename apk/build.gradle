@@ -19,7 +19,7 @@ apply plugin: 'jacoco'
 repositories {
     mavenCentral()
     flatDir {
-        dirs '../third_party/AndroidSlidingUpPanel/libs/'
+        dirs '../thirFd_party/AndroidSlidingUpPanel/libs/'
     }
     flatDir {
         dirs '../third_party/svg-android/libs/'
@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         proguardFiles getDefaultProguardFile('proguard-android.txt'), file('proguard-project.txt')
-        applicationId "com.google.samples.apps.iosched"
+        applicationId "com.google.samples.apps.droidconKE"
         versionCode = Integer.valueOf("" + appVersionCode).intValue()
         versionName "${appVersionName}"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -66,7 +66,7 @@ android {
             // Defined in :lib
         }
         mapEditor {
-            applicationIdSuffix = ".mapeditor"
+            applicationIdSuffix = ".droidconkemapeditor"
             // Defined in :lib
         }
     }

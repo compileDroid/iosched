@@ -17,11 +17,11 @@ the License.
 <defaultsMap>
     <entry>
         <key>feed_default_first_title</key>
-        <value>Welcome to the I/O Feed</value>
+        <value>Welcome to the droidconKE Feed</value>
     </entry>
     <entry>
         <key>feed_default_first_message</key>
-        <value><![CDATA[Here you'll find cards with relevant info and tips about Google I/O before, throughout, and even after the conference. You can expect content related to the Agenda / Schedule, Travel, After Hours, as well as highlights from our social channels.]]></value>
+        <value><![CDATA[Here you'll find cards with relevant info and tips about droidconKE before, throughout, and even after the conference. You can expect content related to the Agenda / Schedule, Travel, After Hours, as well as highlights from our social channels.]]></value>
     </entry>
     <entry>
         <key>feed_default_first_imageurl</key>
@@ -47,7 +47,7 @@ the License.
     </entry>
     <entry>
         <key>default_wifi_network</key>
-        <value>IO2017</value>
+        <value>droidconKE</value>
     </entry>
     <entry>
         <key>default_wifi_password</key>

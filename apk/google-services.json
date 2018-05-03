@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "602867001820",
+    "firebase_url": "https://droidconke-70d60.firebaseio.com",
+    "project_id": "droidconke-70d60",
+    "storage_bucket": "droidconke-70d60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602867001820:android:e45780a8b285a519",
+        "android_client_info": {
+          "package_name": "com.google.samples.apps.droidconKE"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602867001820-a8v0kphno5f9212cmmkvjrnsobckkhg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.samples.apps.droidconKE",
+            "certificate_hash": "e499e9081b4ddf63788f4dfb4e7018c54f93188b"
+          }
+        },
+        {
+          "client_id": "602867001820-8do9ses74ci4q6jqqii6tqi2pdvvujkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZZIogd-gV0lCmXFKKowEhzoFYDrLRr4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602867001820-8do9ses74ci4q6jqqii6tqi2pdvvujkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602867001820:android:20d85719d8a9db9a",
+        "android_client_info": {
+          "package_name": "com.google.samples.apps.droidconKE.droidconkemapeditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602867001820-2r4ec2mr582dtolm2lnfcd6mitvu2eqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.samples.apps.droidconKE.droidconkemapeditor",
+            "certificate_hash": "e499e9081b4ddf63788f4dfb4e7018c54f93188b"
+          }
+        },
+        {
+          "client_id": "602867001820-8do9ses74ci4q6jqqii6tqi2pdvvujkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZZIogd-gV0lCmXFKKowEhzoFYDrLRr4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602867001820-8do9ses74ci4q6jqqii6tqi2pdvvujkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
