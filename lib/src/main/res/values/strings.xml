@@ -936,4 +936,5 @@
     <!-- The label used on a button when a view is in an collapsed state. Clicking on the icon
     expanded the view. -->
     <string name="collapsed">Collapsed</string>
+
 </resources>

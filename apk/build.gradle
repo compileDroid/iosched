@@ -56,18 +56,22 @@ android {
         // This typically also means that release builds are signed manually rather than by
         // Gradle.
     }
+    flavorDimensions "targetSDKVersion","normal","mapEditor"
 
-    productFlavors {
+        productFlavors {
         // Use this flavor to run automated tests.
         targetSdk22 {
             // Defined in :lib
+            dimension "targetSDKVersion"
         }
         normal {
             // Defined in :lib
+            dimension "normal"
         }
         mapEditor {
             applicationIdSuffix = ".droidconkemapeditor"
             // Defined in :lib
+            dimension "mapEditor"
         }
     }
 
